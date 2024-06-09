@@ -1,0 +1,84 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #397294, #000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.topo {
+  background-color: #397294;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+.image2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.pesquisas {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 80px;
+}
+
+.pesquisas a {
+  text-decoration: none;
+  color: beige;
+  border-radius: 10%;
+  transition: 1s;
+}
+
+.button {
+  background-color: #397294;
+  color: beige;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para o texto */
+.text {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 200px;
+  text-align: right;
+  color: bisque;
+}
+
+.text h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: aqua;
+}
+
+.text p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
