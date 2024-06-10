@@ -81,6 +81,14 @@ ul {
   line-height: 1.5;
   display: inline;
 }
+.b2 {
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.b2 :hover {
+  background-color: #397294;
+}
 .card {
   background-color: #000;
   color: antiquewhite;
