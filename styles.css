@@ -4,21 +4,24 @@ ul {
   padding: 0;
 }
 
-body {
+.degrade {
   background: linear-gradient(to bottom, #397294, #000);
   background-repeat: no-repeat;
-  background-size: cover;
   font-family: Arial, sans-serif;
   height: 100vh;
+  padding-top: 70px;
 }
 
 .topo {
   background-color: #397294;
-  background: transparent;
+
   display: flex;
   align-items: center;
   padding: 10px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .image2 {
@@ -57,28 +60,65 @@ body {
   transform: translateY(-50%);
 }
 
-.button:hover {
-  background-color: #0056b3;
-}
-
-/* Estilos para o texto */
 .text {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   max-width: 200px;
-  text-align: right;
+  text-align: center;
   color: bisque;
 }
 
-.text h2 {
+.text h6 {
   margin: 0 0 10px;
-  font-size: 24px;
+  font-size: 20px;
   color: aqua;
 }
 
-.text p {
+.text h1 {
   margin: 0;
-  font-size: 16px;
+  font-size: 50px;
   line-height: 1.5;
+  display: inline;
+}
+.card {
+  background-color: #000;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #397294;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-footer {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.contact-info {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.repre {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.prod {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
